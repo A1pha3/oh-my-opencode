@@ -430,6 +430,10 @@ export function createConfigHandler(deps: ConfigHandlerDeps) {
       const agent = agentResult.hephaestus as AgentWithPermission;
       agent.permission = { ...agent.permission, call_omo_agent: "deny", delegate_task: "allow", question: "allow" };
     }
+    if (agentResult.hephaestus) {
+      const agent = agentResult.hephaestus as AgentWithPermission;
+      agent.permission = { ...agent.permission, call_omo_agent: "deny", delegate_task: "allow", question: "allow" };
+    }
     if (agentResult["prometheus"]) {
       const agent = agentResult["prometheus"] as AgentWithPermission;
       agent.permission = { ...agent.permission, call_omo_agent: "deny", delegate_task: "allow", question: "allow", "task_*": "allow", teammate: "allow" };
