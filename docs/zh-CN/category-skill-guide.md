@@ -19,7 +19,7 @@ Category 是针对特定领域优化的代理配置预设。
 
 ### 可用的内置分类
 
-| 分类 | 默认模型 | 用例 |
+ | 类别 | 默认模型 | 用例 |
 |------|----------|------|
 | `visual-engineering` | `google/gemini-3-pro` | 前端、UI/UX、设计、样式、动画 |
 | `ultrabrain` | `openai/gpt-5.2-codex`（xhigh） | 深度逻辑推理、需要广泛分析复杂架构决策 |

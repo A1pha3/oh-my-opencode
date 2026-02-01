@@ -214,7 +214,7 @@
 
 1. Sisyphus 不会浪费时间自己寻找文件；他保持主智能体的上下文精简。相反，他向更快、更便宜的模型并行发起后台任务，让它们为他绘制地图。
 2. Sisyphus 利用 LSP 进行重构；这更确定性、更安全、更精准。
-3. 当繁重的工作需要 UI 时，Sisyphus 直接将前端任务委派给 Gemini 3 Pro。
+3. 当繁重的工作需要 UI 时，Sisyphus 直接将前端任务委托给 Gemini 3 Pro。
 4. 如果 Sisyphus 陷入循环或碰壁，他不会继续撞墙——他会召唤 GPT 5.2 进行高智商战略支援。
 5. 在处理复杂的开源框架时？Sisyphus 生成子智能体实时消化原始源代码和文档。他拥有完整的上下文感知。
 6. 当 Sisyphus 处理注释时，他要么证明它们存在的必要性，要么删除它们。他保持你的代码库整洁。
@@ -223,7 +223,7 @@
 9. 其实，打 'ultrawork' 太费劲了。只需打 'ulw'。就 ulw。喝杯咖啡。你的工作完成了。
 
 需要查找什么？它会搜索官方文档、你的整个代码库历史和公共 GitHub 实现——不仅使用 grep，还使用内置的 LSP 工具和 AST-Grep。
-3. 在委派给 LLM 时不用担心上下文管理。我已经处理好了。
+3. 在委托给 LLM 时不用担心上下文管理。我已经处理好了。
     - OhMyOpenCode 积极利用多个智能体来减轻上下文负担。
     - **你的智能体现在是开发团队负责人。你是 AI 经理。**
 4. 它不会停止，直到工作完成。
@@ -242,7 +242,7 @@
 https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/refs/heads/master/docs/guide/installation.md
 ```
 
-或者直接阅读 [安装指南](docs/guide/installation.md)——但我们强烈建议让智能体来处理。人会犯错，智能体不会。
+或者直接阅读 [安装指南](docs/guide/overview.md)——但我们强烈建议让智能体来处理。人会犯错，智能体不会。
 
 ### 面向 LLM 智能体
 
@@ -312,7 +312,7 @@ curl -s https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/refs/heads
 - **内置技能**: `playwright` (浏览器自动化), `git-master` (原子提交)
 - **Sisyphus 智能体**: 带有 Prometheus (Planner) 和 Metis (Plan Consultant) 的主编排器
 - **后台任务**: 按提供商/模型配置并发限制
-- **类别**: 领域特定的任务委派 (`visual`, `business-logic`, 自定义)
+- **类别**: 领域特定的任务委托 (`visual`, `business-logic`, 自定义)
 - **钩子**: 25+ 内置钩子，均可通过 `disabled_hooks` 配置
 - **MCP**: 内置 websearch (Exa), context7 (文档), grep_app (GitHub 搜索)
 - **LSP**: 带重构工具的完整 LSP 支持
