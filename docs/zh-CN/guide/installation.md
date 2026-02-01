@@ -724,9 +724,7 @@ opencode --version
   ↓
 [功能完整参考](../features/complete-reference.md)
   ↓
-[配置完整指南](../configuration/complete-guide.md)
-  ↓
-[高级主题](../advanced/)
+[配置指南](../configurations.md)
   ↓
 [最佳实践](../best-practices/development.md)
 ```
@@ -737,7 +735,7 @@ opencode --version
 
 - [快速入门指南](./quickstart.md) - 从零开始使用
 - [常见问题解答](../troubleshooting/faq.md) - 解决问题
-- [配置完整指南](../configuration/complete-guide.md) - 深度定制
+- [配置指南](../configurations.md) - 深度定制
 - [功能完整参考](../features/complete-reference.md) - 了解所有功能
 
 ---

@@ -13,22 +13,22 @@
 | 文档 | 描述 | 适合人群 |
 |-------|------|---------|
 | [快速入门指南](./guide/quickstart.md) | 从零开始安装并使用 Oh My OpenCode | 完全新手 |
-| [系统概览](./guide/overview.md) | 了解系统的核心功能和设计理念 | 想要快速了解系统的开发者 |
+| [安装指南](./guide/installation.md) | 完整安装和身份验证配置 | 需要详细安装步骤的开发者 |
 
 ### 🏗️ 深度原理理解
 
 | 文档 | 描述 |
 |-------|------|
 | [架构原理深度解析](./architecture/core-principles.md) | 从底层原理讲解系统的设计思想和工作机制 |
-| [编排系统详解](./orchestration/deep-dive.md) | Prometheus → Atlas → Junior 工作流详解 |
-| [分类与技能系统](./advanced/category-skill-system.md) | Category 和 Skill 系统的深度理解 |
+| [编排系统详解](./features/complete-reference.md) | Prometheus → Atlas → Junior 工作流详解（见功能参考） |
+| [分类与技能系统](../category-skill-guide.md) | Category 和 Skill 系统的深度理解（参考英文原版） |
 
 ### ⚙️ 配置与使用
 
 | 文档 | 描述 |
 |-------|------|
-| [完整配置指南](./configuration/complete-guide.md) | 所有配置选项的详细说明 |
-| [CLI 使用指南](./cli/usage-guide.md) | 命令行工具完整参考 |
+| [配置说明](../configurations.md) | 所有配置选项的详细说明（参考英文原版） |
+| [CLI 指南](../cli-guide.md) | 命令行工具完整参考（参考英文原版） |
 
 ### 🎯 功能详解
 
@@ -40,24 +40,24 @@
 
 | 文档 | 描述 |
 |-------|------|
-| [多模型编排](./advanced/multi-model-orchestration.md) | 如何优雅地混合使用多个 AI 模型 |
-| [自定义 Agent 和 Skill](./advanced/custom-agents-skills.md) | 扩展系统以满足你的需求 |
-| [性能优化指南](./advanced/performance-optimization.md) | 提升效率、降低成本的实用技巧 |
+| [多模型编排](./features/complete-reference.md) | 如何优雅地混合使用多个 AI 模型（见功能参考） |
+| [自定义配置](./best-practices/development.md) | 扩展系统以满足你的需求（见最佳实践） |
+| [性能优化](./best-practices/development.md) | 提升效率、降低成本的实用技巧（见最佳实践） |
 
 ### 📖 最佳实践
 
 | 文档 | 描述 |
 |-------|------|
 | [开发最佳实践](./best-practices/development.md) | 如何最高效地使用 Oh My OpenCode |
-| [团队协作指南](./best-practices/team-collaboration.md) | 在团队环境中部署和使用 |
-| [生产环境使用](./best-practices/production.md) | 在实际项目中稳定运行的指南 |
+| [团队协作指南](./best-practices/development.md) | 在团队环境中部署和使用（见开发最佳实践） |
+| [生产环境使用](./best-practices/development.md) | 在实际项目中稳定运行的指南（见开发最佳实践） |
 
 ### 🛠️ 故障排查
 
 | 文档 | 描述 |
 |-------|------|
 | [常见问题解答](./troubleshooting/faq.md) | 频繁遇到的问题和解决方案 |
-| [调试指南](./troubleshooting/debugging.md) | 如何调试和诊断系统问题 |
+| [故障排除](./troubleshooting/faq.md) | 如何调试和诊断系统问题（见常见问题解答） |
 
 ---
 
@@ -134,7 +134,7 @@ Oh My OpenCode 通过清晰分离三个角色来解决这个问题：
 2. **Atlas（协调器）**：负责调度和验证
 3. **Junior（执行者）**：只负责"把代码写出来"
 
-更多关于设计哲学的内容，请阅读 [Ultrawork 宣言](./ultrawork-manifesto.md)。
+更多关于设计哲学的内容，请阅读 [Ultrawork 宣言](../ultrawork-manifesto.md)。
 
 ---
 
@@ -155,8 +155,8 @@ Oh My OpenCode 通过清晰分离三个角色来解决这个问题：
 
 ```
 1. 快速入门指南 → 了解基本安装和三种使用方式
-2. 系统概览 → 理解系统能做什么
-3. 编排系统详解 → 理解核心工作流
+2. 安装指南 → 理解系统能做什么
+3. 功能详解 → 理解核心工作流
 4. 配置指南 → 根据你的需求定制系统
 ```
 
@@ -164,8 +164,8 @@ Oh My OpenCode 通过清晰分离三个角色来解决这个问题：
 
 ```
 1. 架构原理深度解析 → 从底层理解设计思想
-2. 分类与技能系统 → 掌握委托机制
-3. 高级主题 → 学习自定义和扩展
+2. 功能完整参考 → 掌握委托机制
+3. 最佳实践 → 学习自定义和扩展
 ```
 
 ### 实际项目使用

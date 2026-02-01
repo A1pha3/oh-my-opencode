@@ -967,7 +967,7 @@ bun install -g opencode@latest
 
 1. **查看详细文档：**
    - [功能完整参考](../features/complete-reference.md)
-   - [配置完整指南](../configuration/complete-guide.md)
+   - [配置指南](../configurations.md)
 
 2. **搜索 GitHub Issues：**
    - https://github.com/code-yeongyu/oh-my-opencode/issues?q=is%3Aissue

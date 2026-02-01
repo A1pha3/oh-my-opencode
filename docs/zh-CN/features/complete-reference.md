@@ -1036,6 +1036,6 @@ Oh My OpenCode 提供了一套完整的功能系统：
 ## 📖 相关文档
 
 - [架构原理深度解析](../architecture/core-principles.md) - 理解设计哲学
-- [配置完整指南](../configuration/complete-guide.md) - 定制所有功能
-- [编排系统详解](../orchestration/deep-dive.md) - 深入理解工作流
+- [配置指南](../configurations.md) - 定制所有功能
+- [编排系统详解](./features.md) - 深入理解工作流（参考英文原版）
 - [最佳实践](../best-practices/development.md) - 最高效地使用这些功能

@@ -806,5 +806,5 @@ const exploreResult = await delegate_task(
 ## 📖 相关文档
 
 - [功能完整参考](../features/complete-reference.md) - 了解所有可用工具
-- [配置完整指南](../configuration/complete-guide.md) - 定制你的设置
+- [配置指南](../configurations.md) - 定制你的设置
 - [常见问题解答](../troubleshooting/faq.md) - 解决具体问题

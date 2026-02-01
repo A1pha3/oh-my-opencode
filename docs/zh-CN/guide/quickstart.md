@@ -512,7 +512,7 @@ Prometheus 模式下：
 bunx oh-my-opencode install  # 自动生成配置
 ```
 
-如果你想自定义配置，请参考 [配置指南](../configuration/complete-guide.md)。
+如果你想自定义配置，请参考 [配置指南](../configurations.md)。
 
 ---
 
@@ -526,7 +526,7 @@ bunx oh-my-opencode install  # 自动生成配置
 
 ```
 快速入门 → [架构原理深度解析](../architecture/core-principles.md)
-           → [编排系统详解](../orchestration/deep-dive.md)
+           → [功能完整参考](../features/complete-reference.md)
 ```
 
 这会帮你理解：
@@ -538,7 +538,7 @@ bunx oh-my-opencode install  # 自动生成配置
 
 ```
 快速入门 → [最佳实践](../best-practices/development.md)
-           → [高级主题](../advanced/multi-model-orchestration.md)
+           → [分类与技能系统](../category-skill-guide.md)
 ```
 
 这会帮你：
@@ -675,11 +675,11 @@ ulw 添加用户注册功能
 
 ## 📖 相关文档
 
-- [系统概览](./overview.md) - 了解系统完整功能
+- [系统概览](../guide/overview.md) - 了解系统完整功能
 - [Ultrawork 宣言](../ultrawork-manifesto.md) - 理解设计哲学
 - [安装详细指南](./installation.md) - 完整安装参考
-- [配置指南](../configuration/complete-guide.md) - 定制你的设置
-- [编排系统详解](../orchestration/deep-dive.md) - 深度理解工作流
+- [配置指南](../configurations.md) - 定制你的设置
+- [功能完整参考](../features/complete-reference.md) - 深度理解工作流
 - [常见问题](../troubleshooting/faq.md) - 更多问题解答
 
 ---

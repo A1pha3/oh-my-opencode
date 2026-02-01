@@ -1096,6 +1096,6 @@ Oh My OpenCode 的架构不是"复杂"而是"有原则"。
 
 ## 📖 下一步
 
-- [编排系统详解](../orchestration/deep-dive.md) - 深入理解工作流
-- [分类与技能系统](../advanced/category-skill-system.md) - 学习委托机制
+- [编排系统详解](../features/complete-reference.md) - 深入理解工作流
+- [分类与技能系统](../category-skill-guide.md) - 学习委托机制（参考英文原版）
 - [最佳实践](../best-practices/development.md) - 如何最高效地使用系统
