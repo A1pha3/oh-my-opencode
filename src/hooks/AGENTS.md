@@ -8,7 +8,7 @@
 hooks/
 ├── atlas/                      # Main orchestration (752 lines)
 ├── anthropic-context-window-limit-recovery/ # Auto-summarize
-├── todo-continuation-enforcer.ts # Force TODO completion (16k lines)
+├── todo-continuation-enforcer.ts # Force TODO completion (508 lines)
 ├── ralph-loop/                 # Self-referential dev loop
 ├── claude-code-hooks/          # settings.json compat layer - see AGENTS.md
 ├── comment-checker/            # Prevents AI slop

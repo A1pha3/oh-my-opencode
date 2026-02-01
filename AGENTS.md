@@ -1,7 +1,7 @@
 # PROJECT KNOWLEDGE BASE
 
-**Generated:** 2026-01-26T14:50:00+09:00
-**Commit:** 9d66b807
+**Generated:** 2026-02-01T20:57:00+08:00
+**Commit:** 44f5ce0
 **Branch:** dev
 
 ---
@@ -73,7 +73,7 @@ oh-my-opencode/
 - **Build**: `bun build` (ESM) + `tsc --emitDeclarationOnly`
 - **Exports**: Barrel pattern via index.ts
 - **Naming**: kebab-case dirs, `createXXXHook`/`createXXXTool` factories
-- **Testing**: BDD comments, 100 test files
+- **Testing**: BDD comments, 100 test files (co-located *.test.ts)
 - **Temperature**: 0.1 for code agents, max 0.3
 
 ## ANTI-PATTERNS
