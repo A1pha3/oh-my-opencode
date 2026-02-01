@@ -20,21 +20,23 @@
 | 文档 | 描述 |
 |-------|------|
 | [架构原理深度解析](./architecture/core-principles.md) | 从底层原理讲解系统的设计思想和工作机制 |
-| [编排系统详解](./features/complete-reference.md) | Prometheus → Atlas → Junior 工作流详解（见功能参考） |
-| [分类与技能系统](../category-skill-guide.md) | Category 和 Skill 系统的深度理解（参考英文原版） |
+| [编排系统详解](./orchestration-guide.md) | Prometheus → Atlas → Junior 工作流详解 |
+| [分类与技能系统](./category-skill-guide.md) | Category 和 Skill 系统的深度理解 |
 
 ### ⚙️ 配置与使用
 
 | 文档 | 描述 |
 |-------|------|
-| [配置说明](../configurations.md) | 所有配置选项的详细说明（参考英文原版） |
-| [CLI 指南](../cli-guide.md) | 命令行工具完整参考（参考英文原版） |
+| [配置说明](./configurations.md) | 所有配置选项的详细说明 |
+| [CLI 指南](./cli-guide.md) | 命令行工具完整参考 |
+| [Ultrawork 宣言](./ultrawork-manifesto.md) | 项目核心哲学与设计原则 |
 
 ### 🎯 功能详解
 
 | 文档 | 描述 |
 |-------|------|
-| [所有功能参考](./features/complete-reference.md) | 10+ 代理、32 个钩子、20+ 工具的完整说明 |
+| [功能完整参考](./features.md) | 10+ 代理、32 个钩子、20+ 工具的完整说明 |
+| [功能完整参考（旧版）](./features/complete-reference.md) | 10+ 代理、32 个钩子、20+ 工具的完整说明（参考版本） |
 
 ### 🔧 高级主题
 
