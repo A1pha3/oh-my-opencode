@@ -239,7 +239,7 @@
 
 ```
 按照以下说明安装和配置 oh-my-opencode：
-https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/refs/heads/master/docs/guide/installation.md
+https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/refs/heads/dev/docs/guide/installation.md
 ```
 
 或者直接阅读 [安装指南](docs/guide/overview.md)——但我们强烈建议让智能体来处理。人会犯错，智能体不会。
