@@ -41,7 +41,7 @@
 
 | 模型 | Provider | 额度情况 | 特长 |
 |------|----------|----------|------|
-| Claude Opus 4.5 Thinking | google/antigravity | 有限（多账户轮换） | 最强推理、复杂架构 |
+| Claude Opus 4.5 Thinking | google/antigravity-claude-opus-4-5-thinking | 有限（多账户轮换） | 最强推理、复杂架构 |
 | MiniMax-M2.1 | minimax-cn-coding-plan | 充足（会员） | 通用开发、代码生成 |
 | GLM-4.7 | zhipuai-coding-plan | 充足（会员） | 中文理解、文档写作 |
 | Gemini 3 Pro | google | 充足 | 前端/UI、创意设计 |
@@ -182,6 +182,8 @@ Claude Opus:       5% (关键决策点)
 ```
 
 ### 6.2 配置说明
+
+> ⚠️ **前置要求**：使用 `google/antigravity-*` 格式的模型需要先安装 [`opencode-antigravity-auth`](https://github.com/NoeFabris/opencode-antigravity-auth) 插件，否则配置不会生效。
 
 - **agents**: 控制内置 agent 使用的模型
 - **categories**: 控制 `delegate_task(category="xxx")` 使用的模型
