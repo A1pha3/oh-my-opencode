@@ -23,7 +23,7 @@
       "model": "zhipuai-coding-plan/glm-4.7"
     },
     "momus": {
-      "model": "github-copilot/gpt-5.2"
+      "model": "github-copilot/claude-haiku-4.5"
     },
     "atlas": {
       "model": "minimax-cn-coding-plan/MiniMax-M2.1"
@@ -52,7 +52,7 @@
       "model": "github-copilot/gemini-3-pro-preview"
     },
     "artistry": {
-      "model": "zhipuai-coding-plan/glm-4.7"
+      "model": "github-copilot/gemini-3-pro-preview"
     },
     "writing": {
       "model": "zhipuai-coding-plan/glm-4.7"
