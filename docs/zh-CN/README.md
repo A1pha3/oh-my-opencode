@@ -35,8 +35,8 @@
 
 | 文档 | 描述 |
 |-------|------|
-| [功能完整参考](./features.md) | 10+ 代理、32 个钩子、20+ 工具的完整说明 |
-| [功能完整参考（旧版）](./features/complete-reference.md) | 10+ 代理、32 个钩子、20+ 工具的完整说明（参考版本） |
+| [功能完整参考](./features.md) | 11+ 代理、32 个钩子、20+ 工具的完整说明 |
+| [功能完整参考（旧版）](./features/complete-reference.md) | 11+ 代理、32 个钩子、20+ 工具的完整说明（参考版本） |
 
 ### 🔧 高级主题
 
@@ -142,7 +142,7 @@ Oh My OpenCode 通过清晰分离三个角色来解决这个问题：
 
 ## 🌟 核心特性
 
-- 🤖 **10 个专业 AI 代理**：Sisyphus、Prometheus、Oracle、Librarian、Explore、Multimodal Looker 等
+- 🤖 **11 个专业 AI 代理**：Sisyphus、Prometheus、Hephaestus、Oracle、Librarian、Explore、Multimodal Looker 等
 - 🧠 **32 个生命周期钩子**：在每个关键点注入自定义逻辑
 - 🛠️ **20+ 专业工具**：LSP、AST-Grep、委托系统等
 - 🎭 **完整 Claude Code 兼容**：命令、技能、代理、MCP、钩子

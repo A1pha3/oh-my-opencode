@@ -147,7 +147,25 @@ bunx oh-my-opencode install
 
 ## 代理
 
-覆盖内置代理设置：
+### 默认运行代理
+
+设置 `oh-my-opencode run` 命令的默认代理：
+
+| 选项 | 默认 | 描述 |
+|------|------|------|
+| `default_run_agent` | 无 | `oh-my-opencode run` 命令的默认代理名称（环境变量：`OPENCODE_DEFAULT_AGENT`） |
+
+**配置示例：**
+
+```json
+{
+  "default_run_agent": "Sisyphus"
+}
+```
+
+可用代理名称：`sisyphus`、`prometheus`、`oracle`、`librarian`、`explore`、`multimodal-looker`、`hephaestus`。
+
+### 覆盖内置代理设置：
 
 ```json
 {

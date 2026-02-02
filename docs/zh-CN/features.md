@@ -4,13 +4,14 @@
 
 ## 代理：您的 AI 团队
 
-Oh-My-OpenCode 提供 10 个专业 AI 代理。每个都有独特的专业知识、优化的模型和工具权限。
+Oh-My-OpenCode 提供 11 个专业 AI 代理。每个都有独特的专业知识、优化的模型和工具权限。
 
 ### 核心代理
 
 | 代理 | 模型 | 目的 |
 |------|------|------|
 | **Sisyphus** | `anthropic/claude-opus-4-5` | **默认编排器。** 使用专业子代理通过激进并行执行规划、委托和执行复杂任务。Todo 驱动的工作流，扩展思考（32k 预算）。回退：kimi-k2.5 → glm-4.7 → gpt-5.2-codex → gemini-3-pro。 |
+| **Hephaestus** | `openai/gpt-5.2-codex` | **"合法的工匠"。** 受 AmpCode deep mode 启发的自主深度工作者。目标导向执行，在行动前进行彻底研究。探索代码库模式，端到端完成任务，不会过早停止。以火与锻造之神命名。需要 gpt-5.2-codex（无回退 - 仅在模型可用时激活）。 |
 | **Oracle** | `openai/gpt-5.2` | 架构决策、代码审查、调试。只读咨询 - 出色的逻辑推理和深度分析。灵感来自 AmpCode。 |
 | **Librarian** | `zai-coding-plan/glm-4.7` | 多仓库分析、文档查找、开源实现示例。深度代码库理解，基于证据的回答。回退：glm-4.7-free → claude-sonnet-4-5。 |
 | **explore** | `anthropic/claude-haiku-4-5` | 快速代码库探索和上下文感知 grep。回退：gpt-5-mini → gpt-5-nano。 |
