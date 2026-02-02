@@ -11,9 +11,7 @@ Oh-My-OpenCode 提供 10 个专业 AI 代理。每个都有独特的专业知识
 | 代理 | 模型 | 目的 |
 |------|------|------|
 | **Sisyphus** | `anthropic/claude-opus-4-5` | **默认编排器。** 使用专业子代理通过激进并行执行规划、委托和执行复杂任务。Todo 驱动的工作流，扩展思考（32k 预算）。回退：kimi-k2.5 → glm-4.7 → gpt-5.2-codex → gemini-3-pro。 |
-| **oracle** | `openai/gpt-5.2` | 架构决策、代码审查、调试。只读咨询 - 出色的逻辑推理和深度分析。灵感来自 AmpCode。 |
 | **Oracle** | `openai/gpt-5.2` | 架构决策、代码审查、调试。只读咨询 - 出色的逻辑推理和深度分析。灵感来自 AmpCode。 |
-| **librarian** | `zai-coding-plan/glm-4.7` | 多仓库分析、文档查找、开源实现示例。深度代码库理解，基于证据的回答。回退：glm-4.7-free → claude-sonnet-4-5。 |
 | **Librarian** | `zai-coding-plan/glm-4.7` | 多仓库分析、文档查找、开源实现示例。深度代码库理解，基于证据的回答。回退：glm-4.7-free → claude-sonnet-4-5。 |
 | **explore** | `anthropic/claude-haiku-4-5` | 快速代码库探索和上下文感知 grep。回退：gpt-5-mini → gpt-5-nano。 |
 | **multimodal-looker** | `google/gemini-3-flash` | 视觉内容专家。分析 PDF、图像、图表以提取信息。回退：gpt-5.2 → glm-4.6v → kimi-k2.5 → claude-haiku-4-5 → gpt-5-nano。 |
