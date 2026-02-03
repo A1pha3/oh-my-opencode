@@ -2,51 +2,49 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "github-copilot/claude-opus-4.5",
-      "variant": "max"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
     },
     "explore": {
-      "model": "github-copilot/gpt-5-mini"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
     },
     "librarian": {
-      "model": "zai-coding-plan/glm-4.7"
+      "model": "zhipuai-coding-plan/glm-4.7"
     },
     "oracle": {
-      "model": "github-copilot/gpt-5.2",
-      "variant": "high"
+      "model": "google/antigravity-claude-opus-4-5-thinking",
+      "variant": "max"
     },
     "hephaestus": {
       "model": "github-copilot/gpt-5.2-codex",
       "variant": "medium"
     },
     "prometheus": {
-      "model": "github-copilot/claude-opus-4.5",
+      "model": "google/antigravity-claude-opus-4-5-thinking",
       "variant": "max"
     },
     "metis": {
-      "model": "github-copilot/claude-opus-4.5",
+      "model": "google/antigravity-claude-opus-4-5-thinking",
       "variant": "max"
     },
     "momus": {
-      "model": "github-copilot/gpt-5.2",
-      "variant": "medium"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
     },
     "atlas": {
-      "model": "github-copilot/claude-sonnet-4.5"
+      "model": "zhipuai-coding-plan/glm-4.7"
     },
     "multimodal-looker": {
-      "model": "google/gemini-3-flash"
+      "model": "google/antigravity-gemini-3-flash"
     }
   },
   "categories": {
     "quick": {
-      "model": "github-copilot/claude-haiku-4.5"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
     },
     "unspecified-low": {
-      "model": "github-copilot/claude-sonnet-4.5"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
     },
     "unspecified-high": {
-      "model": "github-copilot/claude-sonnet-4.5"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
     },
     "ultrabrain": {
       "model": "github-copilot/gpt-5.2-codex",
@@ -57,14 +55,13 @@
       "variant": "medium"
     },
     "visual-engineering": {
-      "model": "google/gemini-3-pro"
+      "model": "github-copilot/gemini-3-pro-preview"
     },
     "artistry": {
-      "model": "google/gemini-3-pro",
-      "variant": "max"
+      "model": "zhipuai-coding-plan/glm-4.7"
     },
     "writing": {
-      "model": "google/gemini-3-flash"
+      "model": "zhipuai-coding-plan/glm-4.7"
     }
   }
 }
