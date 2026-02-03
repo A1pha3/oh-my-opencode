@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "sisyphus": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "explore": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "librarian": {
+      "model": "zhipuai-coding-plan/glm-4.7"
+    },
+    "oracle": {
+      "model": "google/antigravity-claude-opus-4-5-thinking"
+    },
+    "hephaestus": {
+      "model": "github-copilot/gpt-5.2-codex"
+    },
+    "prometheus": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "metis": {
+      "model": "zhipuai-coding-plan/glm-4.7"
+    },
+    "momus": {
+      "model": "zhipuai-coding-plan/glm-4.7"
+    },
+    "atlas": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "multimodal-looker": {
+      "model": "google/antigravity-gemini-3-flash"
+    }
+  },
+  "categories": {
+    "quick": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "unspecified-low": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "unspecified-high": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "ultrabrain": {
+      "model": "google/antigravity-claude-opus-4-5-thinking"
+    },
+    "deep": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "visual-engineering": {
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
+    },
+    "artistry": {
+      "model": "zhipuai-coding-plan/glm-4.7"
+    },
+    "writing": {
+      "model": "zhipuai-coding-plan/glm-4.7"
+    }
+  }
+}
