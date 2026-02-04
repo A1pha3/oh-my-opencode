@@ -1,3 +1,13 @@
+---
+summary: Oh-My-OpenCode 编排系统详解，介绍 Prometheus→Atlas→Junior 三层架构、规划与执行分离的设计哲学和工作流程
+read_when:
+  - 理解系统如何协调多个代理协同工作
+  - 使用 Prometheus 规划复杂任务时
+  - 优化多代理协作流程时
+  - 需要精确控制任务执行流程时
+title: 编排系统详解
+---
+
 # Oh-My-OpenCode 编排系统指南
 
 ## TL;DR - 何时使用什么

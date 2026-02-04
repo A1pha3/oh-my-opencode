@@ -82,9 +82,9 @@ background_output(task_id="bg_abc123")
 - 每个窗格实时显示代理输出
 - 代理完成时自动清理
 
-有关完整配置选项，请参阅 [Tmux 集成](configurations.md#tmux-integration)。
+有关完整配置选项，请参阅 [Tmux 集成](configurations.md#tmux-集成)。
 
-在 `oh-my-opencode.json` 中自定义代理模型、提示和权限。请参阅[配置](configurations.md#agents)。
+在 `oh-my-opencode.json` 中自定义代理模型、提示和权限。请参阅[代理配置](configurations.md#代理)。
 
 ---
 

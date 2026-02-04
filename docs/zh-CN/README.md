@@ -1,3 +1,13 @@
+---
+summary: Oh My OpenCode 中文文档索引，包含新手入门、深度原理、配置使用、功能详解、高级主题、最佳实践和故障排查等完整学习路径
+read_when:
+  - 首次接触 Oh My OpenCode，需要了解文档结构时
+  - 查找特定功能的文档时
+  - 按主题浏览所有可用文档时
+  - 作为快速导航参考时
+title: 中文文档索引
+---
+
 # Oh My OpenCode 中文文档索引
 
 欢迎来到 Oh My OpenCode 中文文档中心！

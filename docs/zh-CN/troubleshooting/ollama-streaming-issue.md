@@ -1,3 +1,13 @@
+---
+summary: Ollama 流式传输问题的解决方案，详解 JSON 解析错误的原因和修复方法
+read_when:
+  - 使用 Ollama 提供商遇到 JSON 解析错误时
+  - 需要配置 stream: false 选项时
+  - 排查 NDJSON 格式问题时
+  - 了解 SDK 兼容性问题时
+title: Ollama 流式传输问题
+---
+
 # Ollama 流式传输问题 - JSON 解析错误
 
 ## 问题

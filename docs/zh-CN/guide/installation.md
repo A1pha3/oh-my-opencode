@@ -1,3 +1,13 @@
+---
+summary: Oh My OpenCode 完整安装指南，涵盖交互式安装、手动安装、身份验证配置和常见问题解决方案
+read_when:
+  - 首次安装 Oh My OpenCode 时
+  - 配置身份验证和 API 密钥时
+  - 排查安装问题时
+  - 需要详细的安装步骤时
+title: 安装指南
+---
+
 # 安装指南
 
 > 📖 **本文档适合**：需要安装 Oh My OpenCode 的所有用户
